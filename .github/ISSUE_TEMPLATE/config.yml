@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security or privacy vulnerability
+    url: https://github.com/kluuuuch/fb-leads-scraper-support/security/advisories/new
+    about: Send sensitive reports privately. Do not disclose them in public issues.

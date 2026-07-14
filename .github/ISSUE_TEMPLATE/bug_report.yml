@@ -1,0 +1,87 @@
+name: Bug report
+description: Report a reproducible FB Leads Scraper problem using synthetic or redacted data.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug. This is a public issue.
+
+        Use only synthetic or fully redacted examples. Never include real lead data, Facebook IDs, webhook URLs, access tokens, credentials, or customer information.
+
+        Report security or privacy vulnerabilities through the private security link in the issue chooser instead.
+
+  - type: input
+    id: extension-version
+    attributes:
+      label: Extension version
+      description: Find the installed version on chrome://extensions.
+      placeholder: 0.1.0
+    validations:
+      required: true
+
+  - type: input
+    id: browser-version
+    attributes:
+      label: Browser and version
+      placeholder: Chrome 000.0.0.0 on macOS
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected area
+      options:
+        - Facebook scanner panel
+        - Popup
+        - Settings
+        - Webhook delivery
+        - Installation or update
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Use a controlled test page, synthetic leads, and a test webhook where possible.
+      placeholder: |
+        1. Open ...
+        2. Click ...
+        3. Observe ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Sanitized diagnostics or screenshots
+      description: Optional. Review every attachment and remove personal data, webhook details, tokens, account IDs, and customer information before posting.
+
+  - type: checkboxes
+    id: public-data-confirmation
+    attributes:
+      label: Public data confirmation
+      options:
+        - label: I used only synthetic or fully redacted data and removed lead details, Facebook IDs, webhook URLs, credentials, tokens, and customer information.
+          required: true
+        - label: This report is a product bug, not a security or privacy vulnerability.
+          required: true
