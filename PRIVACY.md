@@ -1,10 +1,10 @@
 # Privacy
 
-**Last updated: 2026-07-16 EDT**
+**Last updated: 2026-07-24 EDT**
 
 FB Leads Scraper is an independent, user-controlled Chrome extension. This
-policy describes the current release candidate in this repository; it does not
-represent approval by Meta, Facebook, or the Chrome Web Store.
+policy describes the current FB Leads Scraper release; it does not represent
+approval by Meta, Facebook, or the Chrome Web Store.
 
 ## Data Handled
 
@@ -94,19 +94,20 @@ remain available because those actions do not read or send personal lead data.
 
 ## Limited Use And Prohibited Uses
 
-The current repository uses handled data only to run the lead preview/send
-workflow, prevent duplicates, and provide local status and troubleshooting.
+The FB Leads Scraper extension uses handled data only to run the lead
+preview/send workflow, prevent duplicates, and provide local status and
+troubleshooting.
 
 No handled data is sold by the project developer, and the extension has no
 built-in transfer to advertisers or data brokers. The extension does not use it
 for advertising profiles, credit or lending decisions, model training, or
-unrelated purposes. The current repository includes no developer-operated
-backend, no path for the project developer or staff to access user data, no
-analytics or telemetry, and no remote code loading.
+unrelated purposes. The extension includes no developer-operated backend, no
+path for the project developer or staff to access user data, no analytics or
+telemetry, and no remote code loading.
 
-These limits describe the extension code in this repository. They do not make a
-user-selected webhook destination subject to this policy; users must review that
-separate processor's terms and data practices.
+These limits describe the FB Leads Scraper extension. They do not make a
+user-selected webhook destination subject to this policy; users must review
+that separate processor's terms and data practices.
 
 ## User Control And Responsibility
 
@@ -116,6 +117,5 @@ complying with Facebook/Meta terms, destination policies, privacy obligations,
 and applicable laws before parsing, sending, or storing lead data. Configure only
 webhook destinations you own or trust, and treat webhook URLs as credentials.
 
-The exact manifest permission justifications and field-by-field Chrome Web Store
-evidence are maintained in
-[`store/privacy-permissions.md`](store/privacy-permissions.md).
+Additional manifest-permission and data-handling details are included in the
+Chrome Web Store listing for FB Leads Scraper.
